@@ -8,10 +8,10 @@ import ContactMe from "./components/contactMeSection/ContactMe";
 import { Toaster } from "react-hot-toast";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between bg-black">
+    <main className="flex min-h-screen flex-col items-center justify-between  ">
       <Navbar />
+      <HomeHero />
       <div className="container  mx-auto px-5 ">
-        <HomeHero />
         <AboutSection />
         <EduExp />
         <Skills />

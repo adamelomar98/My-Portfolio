@@ -15,12 +15,15 @@ const AboutSection = () => {
         className="place-self-center col-span-1  lg:order-last md:order-last "
       />
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full  col-span-1">
-        <h2 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
+        <h2 className=" text-4xl font-bold text-white mt-10 mb-8 md:mb-8">
           About Me
         </h2>
-        <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-3xl">
-          I am a full stack web developer with a passion for creating
-          interactive and responsive web applications.
+        <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-2xl">
+          Passionate software developer with one year of hands-on experience,
+          specializing in web development. Committed to creating innovative and
+          user-friendly solutions, I thrive on turning ideas into elegant,
+          functional websites.Let s collaborate and turn your web project into a
+          reality.
         </p>
         <div>
           <h3 className="text-xl mt-5 font-semibold">PERSONAL INFOS:</h3>
@@ -29,7 +32,6 @@ const AboutSection = () => {
             <li className="col-span-1">Surname: El Omar</li>
             <li className="col-span-1">Phone: +905385005071</li>
             <li className="col-span-1">Nationality: Lebanese</li>
-            <li className="col-span-1">Languages: Arabic, English</li>
             <li className="col-span-1">Languages: Arabic, English</li>
             <li className="col-span-1">Email: adam.elomar.98@gmail.com</li>
           </ul>
