@@ -9,7 +9,7 @@ const data = [
     type: "diploma",
     date: "2020-2023",
     description:
-      "  (Aydin University - Diploma od Education,Computer Programming)<br/><br/>Microprocessors And Assembler Programming - Object Oriented Programming - Visual Programming - Database and Software Security - Data Structures",
+      "  (Aydin University - Diploma of Education,Computer Programming)<br/><br/>Microprocessors And Assembler Programming - Object Oriented Programming - Visual Programming - Database and Software Security - Data Structures",
   },
   {
     id: 2,
