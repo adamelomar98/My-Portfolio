@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
@@ -32,8 +32,21 @@ const navLinks = [
 ];
 const Navbar = () => {
   const [navBarOpen, setNavbarOpen] = useState(false);
+
+  const navRef = useRef(null);
+  useEffect(() => {
+    const handler = (e) => {
+      if (!navRef.current.contains(e.target)) {
+        return setNavbarOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+  });
   return (
-    <nav className="fixed mx-auto border-b border-b-[#33353F]   top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 ">
+    <nav
+      className="fixed mx-auto border-b border-b-[#33353F]   top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 "
+      ref={navRef}
+    >
       <div className="flex lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
