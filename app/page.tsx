@@ -8,7 +8,7 @@ import ContactMe from "./components/contactMeSection/ContactMe";
 import { Toaster } from "react-hot-toast";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-screen flex-col items-center justify-between bg-black">
       <Navbar />
       <div className="container  mx-auto px-5 ">
         <HomeHero />
