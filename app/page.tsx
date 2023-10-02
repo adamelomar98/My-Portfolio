@@ -6,9 +6,10 @@ import Skills from "./components/skills/Skills";
 import ProjectSection from "./components/projectSection/ProjectSection";
 import ContactMe from "./components/contactMeSection/ContactMe";
 import { Toaster } from "react-hot-toast";
+import Footer from "./components/footer/Footer";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between  ">
+    <main className="flex min-h-screen flex-col items-center justify-between bg-black ">
       <Navbar />
       <HomeHero />
       <div className="container  mx-auto px-5 ">
@@ -19,6 +20,7 @@ export default function Home() {
         <ContactMe />
         <Toaster position="bottom-right" />
       </div>
+      <Footer />
     </main>
   );
 }
