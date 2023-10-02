@@ -24,14 +24,14 @@ const AboutSection = () => {
         </p>
         <div>
           <h3 className="text-xl mt-5 font-semibold">PERSONAL INFOS:</h3>
-          <ul className="grid grid-cols-2  gap-y-8 gap-x-10 mt-5  sm:text-sm text-[#ADB7BE]">
+          <ul className="grid grid-cols-1  gap-y-5 gap-x-10 mt-5  sm:text-sm text-[#ADB7BE]">
             <li className="col-span-1">Name: Adam</li>
             <li className="col-span-1">Surname: El Omar</li>
             <li className="col-span-1">Phone: +905385005071</li>
             <li className="col-span-1">Nationality: Lebanese</li>
             <li className="col-span-1">Languages: Arabic, English</li>
             <li className="col-span-1">Languages: Arabic, English</li>
-            <li className="col-span-2">Email: adam.elomar.98@gmail.com</li>
+            <li className="col-span-1">Email: adam.elomar.98@gmail.com</li>
           </ul>
         </div>
       </div>
