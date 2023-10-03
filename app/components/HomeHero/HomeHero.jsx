@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 const HomeHero = () => {
   return (
-    <section className=" flex  justify-center  pt-24 px-4  xl:px-16" id="home">
+    <section className=" flex  justify-center  pt-24 px-4  xl:px-16 " id="home">
       <div className="grid md:grid-cols-2 gap-2 sm:grid-cols-1">
         <div className=" place-self-center rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative overflow-hidden">
           <Image
@@ -16,7 +16,7 @@ const HomeHero = () => {
             height={400}
           />
         </div>
-        <div className=" sm:mt-5  mt-5  text-center md:text-left ">
+        <div className=" sm:mt-5  mt-5  text-center md:text-left px-4">
           <h1 className="text-[#FF5722] mb-8 text-4xl sm:text-4xl lg:text-6xl  lg:leading-normal font-extrabold   ">
             Hello, I&apos;m <br />
             <span className="text-white">
@@ -38,7 +38,7 @@ const HomeHero = () => {
               />
             </span>
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-3xl ">
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-3xl md:pr-20 pr-0">
             I am a fullstack web developer with a passion for creating
             interactive and responsive web applications.
           </p>
