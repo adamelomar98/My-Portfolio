@@ -5,7 +5,7 @@ export default function SubmitBtn() {
   return (
     <button
       type="submit"
-      className="bg-red-700 hover:bg-red-800 text-white font-medium py-2.5 px-5 rounded-lg w-full disabled:scale-100 disabled:bg-opacity-65 flex items-center justify-center"
+      className="bg-[#FF5722] hover:bg-[#ff3c00] text-white font-medium py-2.5 px-5 rounded-lg w-full disabled:scale-100 disabled:bg-opacity-65 flex items-center justify-center"
       disabled={pending}
     >
       {pending ? (

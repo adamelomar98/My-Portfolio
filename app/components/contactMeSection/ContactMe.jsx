@@ -50,6 +50,7 @@ const ContactMe = () => {
               toast.error(error);
               return;
             }
+
             toast.success("Email sent successfully!");
           }}
         >

@@ -12,10 +12,10 @@ const AboutSection = () => {
         src="/assets/images/adam1.jpg"
         width={500}
         height={500}
-        className="place-self-center col-span-1  lg:order-last md:order-last "
+        className="place-self-center col-span-1  order-last  "
       />
-      <div className="mt-4 md:mt-0 text-left flex flex-col h-full  col-span-1">
-        <h2 className=" text-4xl font-bold text-white mt-10 mb-8 md:mb-8">
+      <div className="  text-left flex flex-col h-full  col-span-1">
+        <h2 className=" text-4xl font-bold text-white  mb-8 md:mb-8">
           About Me
         </h2>
         <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-2xl">

@@ -73,7 +73,7 @@ const Skills = () => {
   return (
     <section className=" pt-24 px-4 0 xl:px-16" id="skills">
       <div className=" ">
-        <h1 className="text-center text-4xl font-bold text-white mt-10 mb-8 md:mb-12">
+        <h1 className="text-center text-4xl font-bold text-white mt-10 mb-8 md:mb-12 ">
           My Skills
         </h1>
         <ul className="flex flex-wrap mx-auto  lg:px-10 sm:px-2 justify-center ">
@@ -82,7 +82,7 @@ const Skills = () => {
               key={index}
               className={`   inline-block 
             py-3 px-5 rounded-full  bg-gradient-to-br from-primary-500
-             to-secondary-500 bg-white text-black font-bold text-center  m-4  `}
+             to-secondary-500 bg-[#FF5722] text-white font-bold text-center  m-4   `}
             >
               {skill.title}
             </li>

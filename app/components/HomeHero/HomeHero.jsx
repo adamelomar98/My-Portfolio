@@ -16,10 +16,10 @@ const HomeHero = () => {
             height={400}
           />
         </div>
-        <div className=" sm:mt-5  mt-5 mx-5 text-center md:text-left">
-          <h1 className="text-white mb-8 text-4xl sm:text-4xl lg:text-7xl  lg:leading-normal font-extrabold   ">
+        <div className=" sm:mt-5  mt-5  text-center md:text-left ">
+          <h1 className="text-[#FF5722] mb-8 text-4xl sm:text-4xl lg:text-6xl  lg:leading-normal font-extrabold   ">
             Hello, I&apos;m <br />
-            <span>
+            <span className="text-white">
               {" "}
               <TypeAnimation
                 sequence={[

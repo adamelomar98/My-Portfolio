@@ -36,7 +36,7 @@ const EduExp = () => {
       id="education"
     >
       <div className="col-span-1 ">
-        <h5 className="text-[#af5e2f]  ">Experience And Education</h5>
+        <h5 className="text-[#FF5722]  ">Experience And Education</h5>
         <h2 className="lg:text-4xl sm:text-3xl font-bold text-white mb-4 ">
           Resume of Experience and Education
         </h2>
@@ -51,7 +51,7 @@ const EduExp = () => {
               <li className="col-span-2 flex ">
                 {data.emoji}
                 {data.title}{" "}
-                <span className=" text-[#dd984a] ml-auto  text-xs text-opacity-60 underline place-self-center">
+                <span className=" text-[#FF5722] ml-auto  text-xs text-opacity-60 underline place-self-center">
                   {data.date}
                 </span>
               </li>
