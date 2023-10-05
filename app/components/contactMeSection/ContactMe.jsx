@@ -11,9 +11,8 @@ const ContactMe = () => {
   return (
     <section
       id="contact"
-      className="grid md:grid-cols-2 my-12 md:my-12 gap-4 relative  py-24 px-4  xl:px-16"
+      className="grid md:grid-cols-2 mt-12  gap-4 relative  py-24 px-4  xl:px-16"
     >
-      <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="">
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect

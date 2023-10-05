@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState, useEffect, useRef } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
   {
@@ -41,7 +42,16 @@ const Navbar = () => {
       }
     };
     document.addEventListener("mousedown", handler);
+
+    // motion
   });
+  const item = {
+    exit: {
+      opacity: 0,
+      height: 0,
+      transition: { ease: "easeInOut", duration: 0.6, delay: 0.3 },
+    },
+  };
   return (
     <nav
       className="fixed mx-auto border-b border-b-[#33353F]   top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 "
@@ -85,15 +95,41 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {navBarOpen ? (
-        <ul className="flex flex-col py-4 items-center">
-          {navLinks.map((link, index) => (
-            <li key={index} onClick={() => setNavbarOpen(false)}>
-              {<NavLink href={link.path} title={link.title} />}
-            </li>
-          ))}
-        </ul>
-      ) : null}
+      <AnimatePresence>
+        {navBarOpen ? (
+          <motion.div
+            variants={item}
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "300px", opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            exit="exit"
+          >
+            <ul className="flex flex-col py-4 items-center">
+              {navLinks.map((link, index) => (
+                <motion.li
+                  variants={item}
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "44px", opacity: 1 }}
+                  transition={{ delay: (index + 3) / 10 }}
+                  exit={{
+                    height: 0,
+                    opacity: 0,
+                    transition: {
+                      ease: "easeInOut",
+                      duration: 0.3,
+                      delay: (navLinks.length - index - 1) / 10,
+                    },
+                  }}
+                  key={index}
+                  onClick={() => setNavbarOpen(false)}
+                >
+                  {<NavLink href={link.path} title={link.title} />}
+                </motion.li>
+              ))}
+            </ul>
+          </motion.div>
+        ) : null}
+      </AnimatePresence>
     </nav>
   );
 };
