@@ -60,9 +60,9 @@ const Navbar = () => {
       <div className="flex lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-4xl md:text-5xl text-white font-semibold"
+          className="text-4xl md:text-5xl text-[#FF5722] font-semibold"
         >
-          ADAM.
+          A<span className="text-white">DAM</span>.
         </Link>
 
         <div className="mobile-menu block mdC:hidden">
@@ -104,7 +104,7 @@ const Navbar = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             exit="exit"
           >
-            <ul className="flex flex-col py-4 items-center">
+            <ul className="flex flex-col py-4 items-center ">
               {navLinks.map((link, index) => (
                 <motion.li
                   variants={item}
@@ -117,7 +117,7 @@ const Navbar = () => {
                     transition: {
                       ease: "easeInOut",
                       duration: 0.3,
-                      delay: (navLinks.length - index - 1) / 10,
+                      delay: (navLinks.length - index + 1) / 10,
                     },
                   }}
                   key={index}
