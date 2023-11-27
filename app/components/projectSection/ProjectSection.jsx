@@ -7,8 +7,17 @@ const projectData = [
     description:
       "A responsive and dynamic portfolio Website powered by Nextjs 13,enhanced with TypeScript and styled with Tailwind CSS  ",
     image: "/",
-    gitUrl: "/",
+    gitUrl: "https://github.com/adamelomar98/My-Portfolio",
     previewUrl: "https://adamelomar.com/",
+  },
+  {
+    id: 2,
+    title: "Full Stack E-Commercs Website",
+    description:
+      "A Full Stack E-Commerce website with admin dashboard powered by Nextjs 13 and MySql database, enhanced with TypeScript and styled with Tailwind CSS  ",
+    image: "/",
+    gitUrl: "https://github.com/adamelomar98/FULLSTACK-ECOMMERCE",
+    previewUrl: "/",
   },
 ];
 const ProjectSection = () => {
