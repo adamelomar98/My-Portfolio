@@ -9,10 +9,10 @@ const AboutSection = () => {
     >
       <Image
         alt="profile pic"
-        src="/assets/images/adam1.jpg"
+        src="/assets/images/ww.jpg"
         width={500}
         height={500}
-        className="place-self-center col-span-1  order-last  "
+        className="place-self-center col-span-1  order-last  rounded"
       />
       <div className="  text-left flex flex-col h-full  col-span-1">
         <h2 className=" text-4xl font-bold text-white  mb-8 md:mb-8">

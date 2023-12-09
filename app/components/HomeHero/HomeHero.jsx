@@ -9,7 +9,7 @@ const HomeHero = () => {
       <div className="grid md:grid-cols-2 gap-2 sm:grid-cols-1">
         <div className=" place-self-center rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative overflow-hidden">
           <Image
-            src="/assets/images/adam2.jpg"
+            src="/assets/images/10.png"
             alt="hero image"
             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             width={400}

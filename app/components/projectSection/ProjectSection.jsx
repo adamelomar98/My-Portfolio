@@ -6,7 +6,7 @@ const projectData = [
     title: "Next.js Portfolio Website",
     description:
       "A responsive and dynamic portfolio Website powered by Nextjs 13,enhanced with TypeScript and styled with Tailwind CSS  ",
-    image: "/",
+    image: "/assets/images/projects/p3.png",
     gitUrl: "https://github.com/adamelomar98/My-Portfolio",
     previewUrl: "https://adamelomar.com/",
   },
