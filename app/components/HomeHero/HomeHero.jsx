@@ -7,7 +7,7 @@ const HomeHero = () => {
   return (
     <section className=" flex  justify-center  pt-24 px-4  xl:px-16 " id="home">
       <div className="grid md:grid-cols-2 gap-2 sm:grid-cols-1">
-        <div className=" place-self-center rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative overflow-hidden">
+        <div className=" place-self-center rounded-full bg-[#ff5622eb] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative overflow-hidden">
           <Image
             src="/assets/images/10.png"
             alt="hero image"
