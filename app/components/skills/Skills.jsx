@@ -28,10 +28,10 @@ const skills = [
     title: "Next.js",
     path: "",
   },
-  {
-    title: "Figma",
-    path: "",
-  },
+  // {
+  //   title: "Figma",
+  //   path: "",
+  // },
   {
     title: "TeamWork",
     path: "",
@@ -44,14 +44,14 @@ const skills = [
     title: "Communication",
     path: "",
   },
-  {
-    title: "Agile",
-    path: "",
-  },
-  {
-    title: "Scram",
-    path: "",
-  },
+  // {
+  //   title: "Agile",
+  //   path: "",
+  // },
+  // {
+  //   title: "Scram",
+  //   path: "",
+  // },
   {
     title: "Git",
     path: "",
